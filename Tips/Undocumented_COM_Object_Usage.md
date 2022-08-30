@@ -11,7 +11,7 @@ COM 오브젝트를 다루는 기능을 개발하면서 호환성 문제를 하�
 
 **IUnknown** 는 기본적으로 오브젝트의 레퍼런스를 관리하기 위한 3가지 함수를  포함하고 있습니다.
 
-![UCOU-1](.\image\UCOU-1.png)
+![UCOU-1](image\UCOU-1.png)
 
 이 중 QueryInterface 는 특정 오브젝트에서 참조 가능한 다른 인터페이스를 조회하는 함수입니다. 이를 분석했습니다. 
 
@@ -107,7 +107,7 @@ IDXGIFactoryDWM8 : public IUnknown
 00007ffc`83a98328  00007ffc`83a5f2c0 dxgi!CDXGIFactory::CreateSwapChainDWM 
 ```
 
-![UCOU-2](.\image\UCOU-2.png)
+![UCOU-2](image\UCOU-2.png)
 
 # 결론
 
